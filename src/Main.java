@@ -103,6 +103,14 @@ public class Main {
         }
     }
 
+    private static void showCurrentGame() {}
+
+    private static void showGameStatus() {}
+
+    private static void clearGame() {}
+
+    private static void finishGame() {}
+
     private static int runUntilGetValidNumber(final int min, final int max){
         var current = scanner.nextInt();
         while(current < min || current > max){
