@@ -114,7 +114,7 @@ public class Main {
         var argPos = 0;
         for(int i = 0; i < BOARD_LIMIT; i++){
             for (var col: board.getSpaces()){
-                args[argPos ++] = " " + (isNull(col.get(i)) ? " ": col.get(i).getActual());
+                args[argPos ++] = " " + (isNull(col.get(i).getActual()) ? " ": col.get(i).getActual());
             }
         }
 
